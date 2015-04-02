@@ -24,7 +24,7 @@
 %           matrix where each column contains the predicted class by a tree in the forest.
 % proximity_ts - proximity of training to the test set
 % nodes - Should the terminal node indicators (an n by ntree matrix) be return? If so, it is
-%         in the ìnodesî attribute of the returned object.
+%         in the ‚Äúnodes‚Äù attribute of the returned object.
 % 
 % Not yet implemented
 % proximity
@@ -89,4 +89,5 @@ function [Y_new, votes, prediction_per_tree,proximity_ts,nodes] = classRF_predic
     end
     
     1;
+   
     
